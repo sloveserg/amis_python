@@ -1,9 +1,9 @@
-while True:
-    x=(input('Катет1:'))
-    y=(input('Катет2:'))
-    if float(x)>0 and float(y)>0:
-         S=(float(x)*float(y))/2
-    if float(x)<0 and float(y)<0:
-         S=Error
-    print('Ploscha:',S)
-input()
+x=float(input('Введіть x:'))
+if  float(x)>0:
+          print('sign(x)=1')
+if  float(x)<0:
+           print('sign(x)=-1')
+if float(x)==0:
+            print('sign(x)=0')
+      
+            

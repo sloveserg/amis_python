@@ -4,14 +4,14 @@ x2 = int(input("введите первую координату второй к
 y2 = int(input("введите вторую координату второй клетки (от 1 до 8) - "))
 import math
 if x1 == x2:
-    a = "YES"
+    ans = "YES"
 elif y1 == y2:
-    a = "YES"
+    ans = "YES"
 elif (abs(x1 - y1) == abs(x2 - y2)):
-    a = "YES"
+    ans = "YES"
 elif ((x1 + 1) >= x2 >= (x1 - 1))&((y1 + 1) >= y2 >= (y1 - 1)):
-    a = "YES"
+    ans = "YES"
 else:
-    a = "NO"
-print(a)
+    ans = "NO"
+print(ans)
 input()
